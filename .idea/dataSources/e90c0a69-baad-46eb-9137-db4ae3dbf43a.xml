@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="water@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>5.5.50</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="almuslim">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="apteka">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="asror">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="ataxan">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="bank">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="basic">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="bit">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="bobur">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="buhgalter">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="camera">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="catalog">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="chatapp">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="dilshod">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="dollar">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="easymarket">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="eski">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="igrushka">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="kafe">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="kafem">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="kkupir">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="komil">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="lider">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="market">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="medlife">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="mix">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="mysql">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="navbat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="30" parent="1" name="none">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="31" parent="1" name="parfume">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="32" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="33" parent="1" name="praduct">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="34" parent="1" name="product">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="35" parent="1" name="qrDB">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="36" parent="1" name="sher">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="37" parent="1" name="shifo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="38" parent="1" name="sms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="39" parent="1" name="tadbir">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="40" parent="1" name="tedauz_tadbir">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="41" parent="1" name="tedauz_talim">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="42" parent="1" name="test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="43" parent="1" name="univermag">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="44" parent="1" name="uzaart_91">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="45" parent="1" name="uzaart_92">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="46" parent="1" name="uzaart_teda">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="47" parent="1" name="valijon">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="48" parent="1" name="water">
+      <Current>1</Current>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="49" parent="1" name="webasyst">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="50" parent="1" name="xonqa">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="51" parent="1" name="yii2_loc">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="52" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="53" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="55" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="57" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="60" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="61" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="62" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="64" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="65" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="66" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="68" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="69" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="70" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="72" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="74" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="75" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="77" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="79" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="81" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="83" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="85" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="87" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="89" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="91" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="93" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="95" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="97" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="99" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="101" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="103" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="105" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="107" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="108" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="109" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="110" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="111" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="112" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="113" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="115" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="116" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="117" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="119" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="122" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="125" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="126" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="128" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="130" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="132" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="134" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="136" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="137" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="138" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="139" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="140" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="142" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="143" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="144" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="145" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="146" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="147" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="148" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="149" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="150" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="151" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="152" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="153" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="154" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="155" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="156" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="157" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="158" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="159" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="161" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="162" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="163" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="164" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="165" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="167" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="168" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="169" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="170" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="171" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="172" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="173" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="174" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="175" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="176" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="177" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="178" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="179" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="180" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="181" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="182" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="183" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="184" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="185" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="186" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="187" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="189" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="190" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="191" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="192" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="193" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="194" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="195" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="196" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="197" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="198" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="199" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="200" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="201" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="202" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="203" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="206" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="207" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="208" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="209" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="211" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="212" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="213" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="214" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="215" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="216" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="217" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="218" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="219" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="220" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="221" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="222" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="223" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="224" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="225" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="226" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="232" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="233" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="234" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="235" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="236" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="237" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="238" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="239" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="240" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="241" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="242" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="243" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="244" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="245" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="246" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="247" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="248" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <user id="249" parent="1" name="dilshod">
+      <Host>%</Host>
+      <ObjectGrants>SELECT,INSERT,UPDATE,CREATE,FILE,INDEX,ALTER,CREATE TEMPORARY TABLES,EXECUTE,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,EVENT,TRIGGER
+</ObjectGrants>
+    </user>
+    <user id="250" parent="1" name="info!traffic">
+      <Host>%</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <user id="251" parent="1" name="mysql">
+      <Host>%</Host>
+    </user>
+    <user id="252" parent="1" name="root">
+      <Host>%</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <table id="253" parent="48" name="asos"/>
+    <table id="254" parent="48" name="asos_motor"/>
+    <table id="255" parent="48" name="cub"/>
+    <table id="256" parent="48" name="motor_sensor"/>
+    <table id="257" parent="48" name="prot_hato"/>
+    <table id="258" parent="48" name="prot_inout"/>
+    <table id="259" parent="48" name="prot_izm"/>
+    <table id="260" parent="48" name="registr"/>
+    <table id="261" parent="48" name="s_farq"/>
+    <table id="262" parent="48" name="s_lavozim"/>
+    <table id="263" parent="48" name="s_motor"/>
+    <table id="264" parent="48" name="s_obekt"/>
+    <table id="265" parent="48" name="s_otdel"/>
+    <table id="266" parent="48" name="s_rele"/>
+    <table id="267" parent="48" name="s_sensor"/>
+    <table id="268" parent="48" name="setup"/>
+    <table id="269" parent="48" name="suvhajmi"/>
+    <table id="270" parent="48" name="user">
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="271" parent="48" name="water_sensor"/>
+    <table id="272" parent="48" name="xato_sensor"/>
+    <column id="273" parent="253" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="274" parent="253" name="obekt_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="253" name="user_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="276" parent="253" name="nom">
+      <Position>4</Position>
+      <DataType>varchar(250)|0s</DataType>
+    </column>
+    <column id="277" parent="253" name="sana">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="278" parent="253" name="kub">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <index id="279" parent="253" name="obekt_id">
+      <ColNames>obekt_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="280" parent="253" name="user_id">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="281" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="282" parent="254" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="283" parent="254" name="asos_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="284" parent="254" name="suvSathi">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="285" parent="254" name="updown">
+      <Position>4</Position>
+      <DataType>int(1)|0s</DataType>
+    </column>
+    <column id="286" parent="254" name="bsana">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="287" parent="254" name="esana">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="288" parent="254" name="amal">
+      <Position>7</Position>
+      <DataType>int(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="289" parent="254" name="user_id">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="290" parent="254" name="obekt_id">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="291" parent="254" name="asos_id">
+      <ColNames>asos_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="292" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="293" parent="255" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="294" parent="255" name="sath_suv">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="295" parent="255" name="0">
+      <Position>3</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="296" parent="255" name="1">
+      <Position>4</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="297" parent="255" name="2">
+      <Position>5</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="298" parent="255" name="3">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="299" parent="255" name="4">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="300" parent="255" name="5">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="301" parent="255" name="6">
+      <Position>9</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="302" parent="255" name="7">
+      <Position>10</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="303" parent="255" name="8">
+      <Position>11</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="304" parent="255" name="9">
+      <Position>12</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="305" parent="256" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="306" parent="256" name="asos_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="307" parent="256" name="motor_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="308" parent="256" name="joriy">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="309" parent="256" name="user_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="310" parent="256" name="suvSathi">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="311" parent="256" name="dastlabki">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="312" parent="256" name="takror">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="313" parent="256" name="obekt_id">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="314" parent="256" name="asos_id">
+      <ColNames>asos_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="315" parent="256" name="motor_id">
+      <ColNames>motor_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="316" parent="256" name="sana">
+      <ColNames>joriy</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="317" parent="256" name="user_id">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="318" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="319" parent="256" name="motor_sensor_ibfk_1">
+      <ColNames>motor_id</ColNames>
+      <RefTableName>s_motor</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="320" parent="257" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="321" parent="257" name="zapros">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <column id="322" parent="257" name="rezult">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <column id="323" parent="257" name="sana">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="324" parent="257" name="tel">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="325" parent="257" name="flag">
+      <Position>6</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="326" parent="257" name="platforma">
+      <Position>7</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="327" parent="257" name="obekt_id">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <key id="328" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="329" parent="258" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="330" parent="258" name="vaqtin">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="331" parent="258" name="vaqtout">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="332" parent="258" name="flag">
+      <Position>4</Position>
+      <DataType>smallint(6)|0s</DataType>
+    </column>
+    <column id="333" parent="258" name="adminnom">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="334" parent="258" name="adminter">
+      <Position>6</Position>
+      <DataType>char(2)|0s</DataType>
+      <Collation>cp1251_general_ci</Collation>
+    </column>
+    <column id="335" parent="258" name="kim">
+      <Position>7</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="336" parent="258" name="tarmoq">
+      <Position>8</Position>
+      <DataType>char(15)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="337" parent="258" name="dastur">
+      <Position>9</Position>
+      <DataType>char(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="338" parent="258" name="client_id">
+      <Position>10</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="339" parent="258" name="vaqtin">
+      <ColNames>vaqtin</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="340" parent="258" name="client_id">
+      <ColNames>client_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="341" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="342" parent="259" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="343" parent="259" name="nima">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <column id="344" parent="259" name="old_value">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="345" parent="259" name="old_adminnom">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="346" parent="259" name="old_changedate">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="347" parent="259" name="new_value">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="348" parent="259" name="new_adminnom">
+      <Position>7</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="349" parent="259" name="new_changedate">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="350" parent="259" name="sabab">
+      <Position>9</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="351" parent="259" name="vid">
+      <Position>10</Position>
+      <DataType>smallint(6)|0s</DataType>
+    </column>
+    <column id="352" parent="259" name="subid">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <index id="353" parent="259" name="subid">
+      <ColNames>subid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="354" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="355" parent="260" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="356" parent="260" name="reg_address">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="357" parent="260" name="chastota">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="358" parent="260" name="time_out">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <key id="359" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="360" parent="261" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="361" parent="261" name="sensor_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="362" parent="261" name="farq_sm">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="363" parent="261" name="change_time">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="364" parent="261" name="user_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="365" parent="261" name="obekt_id">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="366" parent="261" name="active">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="367" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="368" parent="262" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="369" parent="262" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="370" parent="262" name="sh_name">
+      <Position>3</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="371" parent="262" name="prim">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="372" parent="262" name="status">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <key id="373" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="374" parent="263" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="375" parent="263" name="name">
+      <Position>2</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="376" parent="263" name="obekt_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="377" parent="263" name="min">
+      <Position>4</Position>
+      <Comment>motor pastki_sath</Comment>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="378" parent="263" name="max">
+      <Position>5</Position>
+      <Comment>motor yuqori sath </Comment>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="379" parent="263" name="activ">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="380" parent="263" name="s_address">
+      <Position>7</Position>
+      <DataType>int(10)|0s</DataType>
+    </column>
+    <column id="381" parent="263" name="up">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="382" parent="263" name="down">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="383" parent="263" name="m_address">
+      <Position>10</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="384" parent="263" name="m_id">
+      <Position>11</Position>
+      <Comment>motor tartib raqami
+</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="385" parent="263" name="rele_id">
+      <Position>12</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <index id="386" parent="263" name="obekt_id">
+      <ColNames>obekt_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="387" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="388" parent="264" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="389" parent="264" name="indeks">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="390" parent="264" name="active">
+      <Position>3</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="391" parent="264" name="sana">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="392" parent="264" name="del_flag">
+      <Position>5</Position>
+      <DataType>smallint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="393" parent="264" name="comport">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>5</DefaultExpression>
+    </column>
+    <column id="394" parent="264" name="ogoh">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="395" parent="264" name="alarm">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="396" parent="264" name="m_soni">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="397" parent="264" name="s_soni">
+      <Position>10</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="398" parent="264" name="rele_soni">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <index id="399" parent="264" name="del_flag">
+      <ColNames>del_flag</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="400" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="401" parent="265" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="402" parent="265" name="name">
+      <Position>2</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="403" parent="265" name="short_name">
+      <Position>3</Position>
+      <DataType>varchar(250)|0s</DataType>
+    </column>
+    <column id="404" parent="265" name="tablo">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="405" parent="265" name="activ">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="406" parent="265" name="joriy">
+      <Position>6</Position>
+      <DataType>varchar(4)|0s</DataType>
+    </column>
+    <column id="407" parent="265" name="kol">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="408" parent="265" name="flag">
+      <Position>8</Position>
+      <DataType>smallint(6)|0s</DataType>
+    </column>
+    <column id="409" parent="265" name="panel">
+      <Position>9</Position>
+      <DataType>smallint(6)|0s</DataType>
+    </column>
+    <column id="410" parent="265" name="izoh">
+      <Position>10</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <index id="411" parent="265" name="kol">
+      <ColNames>kol</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="412" parent="265" name="flag">
+      <ColNames>flag</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="413" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="414" parent="266" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="415" parent="266" name="address">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="416" parent="266" name="obekt_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="417" parent="266" name="r_id">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <key id="418" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="419" parent="267" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="420" parent="267" name="obekt_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="421" parent="267" name="name">
+      <Position>3</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="422" parent="267" name="s_type">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="423" parent="267" name="reykasathi">
+      <Position>5</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="424" parent="267" name="sensorsathi">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="425" parent="267" name="active">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="426" parent="267" name="s_address">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="427" parent="267" name="kub">
+      <Position>9</Position>
+      <Comment>suv sarfining jadvali bor yo&apos;qliqi 0 va 1
+</Comment>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <index id="428" parent="267" name="obekt_id">
+      <ColNames>obekt_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="429" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="430" parent="268" name="ver">
+      <Position>1</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="431" parent="268" name="verr">
+      <Position>2</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="432" parent="268" name="ver_timer">
+      <Position>3</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="433" parent="268" name="ver_android_min">
+      <Position>4</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+    </column>
+    <column id="434" parent="268" name="ver_android_new">
+      <Position>5</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+    </column>
+    <column id="435" parent="268" name="id">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="436" parent="268" name="username">
+      <Position>7</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="437" parent="268" name="changedate">
+      <Position>8</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="438" parent="268" name="vaqt">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="439" parent="268" name="ariza">
+      <Position>10</Position>
+      <DataType>blob|0s</DataType>
+    </column>
+    <column id="440" parent="268" name="news">
+      <Position>11</Position>
+      <DataType>varchar(250)|0s</DataType>
+    </column>
+    <column id="441" parent="268" name="obekt">
+      <Position>12</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="442" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="443" parent="269" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="444" parent="269" name="sath_suv">
+      <Position>2</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="445" parent="269" name="kub">
+      <Position>3</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="446" parent="269" name="sensor_id">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="447" parent="269" name="obekt_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <key id="448" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="449" parent="270" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="450" parent="270" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="451" parent="270" name="auth_key">
+      <Position>3</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="452" parent="270" name="password_hash">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="453" parent="270" name="password_reset_token">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="454" parent="270" name="email">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="455" parent="270" name="status">
+      <Position>7</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>10</DefaultExpression>
+    </column>
+    <column id="456" parent="270" name="created_at">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="457" parent="270" name="updated_at">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="458" parent="270" name="site_address">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="459" parent="270" name="lavozim_id">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="460" parent="270" name="login">
+      <Position>12</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="461" parent="270" name="userpass">
+      <Position>13</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="462" parent="270" name="fio">
+      <Position>14</Position>
+      <DataType>varchar(150)|0s</DataType>
+    </column>
+    <column id="463" parent="270" name="vaqtin">
+      <Position>15</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="464" parent="270" name="vaqtout">
+      <Position>16</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="465" parent="270" name="flag">
+      <Position>17</Position>
+      <DataType>int(1)|0s</DataType>
+    </column>
+    <column id="466" parent="270" name="active">
+      <Position>18</Position>
+      <DataType>smallint(1)|0s</DataType>
+    </column>
+    <column id="467" parent="270" name="del_flag">
+      <Position>19</Position>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="468" parent="270" name="s_obekt_id">
+      <Position>20</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="469" parent="270" name="username">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="470" parent="270" name="password_reset_token">
+      <ColNames>password_reset_token</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="471" parent="270" name="email">
+      <ColNames>email</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="472" parent="270" name="active">
+      <ColNames>active</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="473" parent="270" name="del_flag">
+      <ColNames>del_flag</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="474" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="475" parent="270" name="username">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>username</UnderlyingIndexName>
+    </key>
+    <column id="476" parent="271" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="477" parent="271" name="asos_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="478" parent="271" name="sensor_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="479" parent="271" name="sana">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="480" parent="271" name="user_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="481" parent="271" name="suvSathi">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="482" parent="271" name="sarfi">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="483" parent="271" name="farq">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="484" parent="271" name="holat">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="485" parent="271" name="obekt_id">
+      <Position>10</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="486" parent="271" name="asos_id">
+      <ColNames>asos_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="487" parent="271" name="sensor_id">
+      <ColNames>sensor_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="488" parent="271" name="sana">
+      <ColNames>sana</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="489" parent="271" name="user_id">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="490" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="491" parent="271" name="water_sensor_ibfk_1">
+      <ColNames>asos_id</ColNames>
+      <RefTableName>asos</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="492" parent="271" name="water_sensor_ibfk_2">
+      <ColNames>sensor_id</ColNames>
+      <RefTableName>s_sensor</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="493" parent="272" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="494" parent="272" name="motor_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="495" parent="272" name="status">
+      <Position>3</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <column id="496" parent="272" name="sana">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="497" parent="272" name="sensor_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="498" parent="272" name="obekt_id">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <key id="499" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
